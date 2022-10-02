@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+/* font-family: 'Poppins', sans-serif; */
+
+html {
+    background-color: #121316;
+    width: 1920px;
+}
+
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.head {
+    padding: 30px 0px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: #121316;
+    margin-top: -100px;
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0px;
+}
+
+.logo {
+    font-size: 33px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.nav li {
+    padding-left: 30px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "Rubik", sans-serif;
+}
+
+.window {
+    background: url(/wallpapersden.com_macos-12-monterey-stock-dark_1920x1080.jpg);
+    background-size: cover;
+    min-height: 90vh;
+    text-align: center;
+    padding-top: 310px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+.blue {
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.2px);
+    -webkit-backdrop-filter: blur(4.2px);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    font-family: "Palanquin", sans-serif;
+    width: 90px;
+    padding: 10px;
+    box-shadow: 0 8px 32px 0 rgba(68, 68, 68, 0.5);
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.three-d {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+.three-d-p {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: gray;
+}
+
+.border {
+    transition: 0.7s ease-in-out;
+    background: rgba( 74, 74, 74, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 14.5px );
+    -webkit-backdrop-filter: blur( 14.5px );
+    border-radius: 10px;
+    border-radius: 48px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.bord {
+    transition: 0.3s ease-in-out;
+
+    padding: -5px -30px;
+}
+
+.img-1 {
+    width: 680px;
+    height: 340px;
+    border-radius: 20px;
+    border: 1px solid rgba(54, 54, 54, 0.664);
+}
+
+.item-1 {
+    background-color: #181a1d;
+    font-family: "Poppins", sans-serif;
+    width: 270px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    transform: translate(-350px, 10px);
+}
+
+.img-2 {
+    width: 250px;
+    height: 250px;
+}
+
+.h1-item {
+    color: white;
+}
+
+.p-item {
+    color: gray;
+}
+
+.item-2 {
+    background-color: #181a1d;
+    font-family: "Poppins", sans-serif;
+    width: 270px;
+    text-align: center;
+    padding: 20px;
+    margin-top: -390px;
+    border-radius: 20px;
+    opacity: 0;
+    transition: 0.7 ease-in-out;
+    transform: translate(0px, 40px);
+}
+
+.item-3 {
+    transition: 0.7s ease-in-out;
+    padding: 25px;
+    transform: translate(1900px, 10px);
+    margin-top: -390px;
+}
+
+.item3Show {
+    transition: 0.7s;
+    background-color: #181a1d;
+    font-family: "Poppins", sans-serif;
+    width: 270px;
+    text-align: center;
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: -390px;
+    transform: translate(1200px, 10px);
+}
+
+.item1Show {
+    background-color: #181a1d;
+    font-family: "Poppins", sans-serif;
+    width: 270px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 100px;
+    transform: translate(300px, 10px);
+    transition: 0.7s ease-in-out;
+}
+
+.item2Show {
+    transition: 0.7s ease-in-out;
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+.after-item-h1 {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+
+.after-item-p {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: gray;
+}
